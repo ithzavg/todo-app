@@ -1,0 +1,30 @@
+.card{
+    display: flex;
+    border: 1px solid #D5D4D8;
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.card__section{
+    display: flex;
+}
+
+.card__section-title {
+   color: #9B59B6; 
+   font-weight: bold;
+}
+
+.card__section-description{
+    color: #888;
+    
+}
+
+.card__section-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
