@@ -1,0 +1,13 @@
+.button{
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button--add{
+    background-color: #27AE60;
+    padding:15px;
+}
+
+.button--delete{
+    background-color: #E74C3C;
+}

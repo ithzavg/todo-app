@@ -13,7 +13,18 @@
     display: flex;
 }
 
-.card__section-title, .card__section-description{
+.card__section-title {
+   color: #9B59B6; 
+   font-weight: bold;
+}
+
+.card__section-description{
     color: #888;
-    text-decoration: line-through;
+    
+}
+
+.card__section-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
 }

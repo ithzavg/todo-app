@@ -9,7 +9,7 @@ interface IButton {
 
 const Button: React.FC<IButton> = ({title, onClick, styleClass}) => {
     return(
-        <button className={styleClass} onClick={onClick}>{title}</button>
+        <button className={`${styleClass} button`}  onClick={onClick}>{title}</button>
     )
 }
 
